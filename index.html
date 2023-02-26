@@ -12,15 +12,18 @@
 
         <h1 class="login"> Login </h1>
 
-        <p class="input">
-            Nome
-        </p>
-
-        <p class="input">
-            Senha
-        </p>
+        <input  class="input" type="text" placeholder="Nome">
+ 
+        <input class="input" type="password" placeholder="Senha">
 
         <button class="botao"> Entrar</button>
     </div>
+
+    <script>
+        function insert(){
+            document.getElementById('input').innerHTML = '';
+        }
+    </script>
 </body>
+
 </html>
